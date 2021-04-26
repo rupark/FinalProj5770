@@ -4,6 +4,8 @@ Welcome to the WAVS Readme! WAVS will identify XSS, XSRF, and cookie caching vul
 URL you pass it. Adding -c will crawl the first 100 links in the domain. URLs must include
 http:// or https://.
 
+If you are interested in testing it out on vulnsrv, you can download and run vulnsrv locally from here https://github.com/phihag/vulnsrv. Then run WAVS using the non-Docker command.
+
 ## To run with Docker:
 ```
 docker build -t wavs .
