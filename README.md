@@ -16,6 +16,6 @@ Example: docker run wavs https://www.youtube.com -c
 ## If you do not want to run with Docker:
 First, install BeautifulSoup4, requests, and lxml.
 ```
-./wavs {URL} {OPTIONAL: -c}
+./wavs.py {URL} {OPTIONAL: -c}
 Example: ./wavs.py https://www.youtube.com -c
 ```
