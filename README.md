@@ -10,12 +10,12 @@ If you are interested in testing it out on vulnsrv, you can download and run vul
 ```
 docker build -t wavs .
 docker run wavs {URL} {OPTIONAL: -c}
-Example: docker run wavs https://www.youtube.com -c
+Example: docker run wavs https://canvas.northeastern.edu -c
 ```
 
 ## If you do not want to run with Docker:
 First, install BeautifulSoup4, requests, and lxml.
 ```
 ./wavs.py {URL} {OPTIONAL: -c}
-Example: ./wavs.py https://www.youtube.com -c
+Example: ./wavs.py https://canvas.northeastern.edu -c
 ```
